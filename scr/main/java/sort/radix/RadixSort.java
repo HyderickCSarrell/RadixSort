@@ -7,4 +7,6 @@ import java.util.*;
 
 public class RadixSort {
    
+   private int[] intArray;
+   private Queue[] buckets;
 }
