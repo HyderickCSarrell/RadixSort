@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="sort.radix.QueueTest" tests="4" skipped="0" failures="0" errors="0" timestamp="2016-11-01T16:55:09" hostname="Buster131" time="0.013">
+<testsuite name="sort.radix.QueueTest" tests="4" skipped="0" failures="0" errors="0" timestamp="2016-11-08T16:19:11" hostname="Buster131" time="0.025">
   <properties/>
-  <testcase name="testIfAStringCanBeDequeue" classname="sort.radix.QueueTest" time="0.004"/>
-  <testcase name="testIfAStringCanBeEnqueue" classname="sort.radix.QueueTest" time="0.0"/>
-  <testcase name="testIfBucketQueueIsInitialized" classname="sort.radix.QueueTest" time="0.001"/>
-  <testcase name="testIfItemsCanBeEnqueueInBuckets" classname="sort.radix.QueueTest" time="0.005"/>
+  <testcase name="testIfAStringCanBeDequeue" classname="sort.radix.QueueTest" time="0.005"/>
+  <testcase name="testIfAStringCanBeEnqueue" classname="sort.radix.QueueTest" time="0.001"/>
+  <testcase name="testIfBucketQueueIsInitialized" classname="sort.radix.QueueTest" time="0.015"/>
+  <testcase name="testIfItemsCanBeEnqueueInBuckets" classname="sort.radix.QueueTest" time="0.001"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

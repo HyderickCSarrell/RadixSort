@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 3.0 (Jython 2.7.0 on java1.8.0_101)" generated="20161102 23:38:24.594">
+<suite source="C:\Users\Hyderick Sarrell\Documents\GitHub\radixSort\src\test\acceptancetest" name="Acceptancetest" id="s1">
+<suite source="C:\Users\Hyderick Sarrell\Documents\GitHub\radixSort\src\test\acceptancetest\RadixSortTests.robot" name="RadixSortTests" id="s1-s1">
+<test name="Sort an Integer Array with a four digit number" id="s1-s1-t1">
+<kw library="BuiltIn" name="Create List">
+<doc>Returns a list containing given items.</doc>
+<arguments>
+<arg>453</arg>
+<arg>2</arg>
+<arg>45</arg>
+<arg>0</arg>
+<arg>12</arg>
+<arg>750</arg>
+<arg>1000</arg>
+<arg>10</arg>
+</arguments>
+<assign>
+<var>${intList}</var>
+</assign>
+<msg level="INFO" timestamp="20161102 23:38:25.312">${intList} = [u'453', u'2', u'45', u'0', u'12', u'750', u'1000', u'10']</msg>
+<status endtime="20161102 23:38:25.313" starttime="20161102 23:38:25.302" status="PASS"></status>
+</kw>
+<kw library="BuiltIn" name="Create List">
+<doc>Returns a list containing given items.</doc>
+<arguments>
+<arg>0</arg>
+<arg>2</arg>
+<arg>10</arg>
+<arg>12</arg>
+<arg>45</arg>
+<arg>453</arg>
+<arg>750</arg>
+<arg>1000</arg>
+</arguments>
+<assign>
+<var>${finalList}</var>
+</assign>
+<msg level="INFO" timestamp="20161102 23:38:25.323">${finalList} = [u'0', u'2', u'10', u'12', u'45', u'453', u'750', u'1000']</msg>
+<status endtime="20161102 23:38:25.324" starttime="20161102 23:38:25.315" status="PASS"></status>
+</kw>
+<kw library="keywords.RadixSortKeywords" name="Sort Array">
+<arguments>
+<arg>${intList}</arg>
+<arg>4</arg>
+</arguments>
+<msg level="FAIL" timestamp="20161102 23:38:25.336">TypeError: SortArray(): 1st arg can't be coerced to int[]</msg>
+<status endtime="20161102 23:38:25.338" starttime="20161102 23:38:25.329" status="FAIL"></status>
+</kw>
+<status critical="yes" endtime="20161102 23:38:25.344" starttime="20161102 23:38:25.292" status="FAIL">TypeError: SortArray(): 1st arg can't be coerced to int[]</status>
+</test>
+<status endtime="20161102 23:38:25.351" starttime="20161102 23:38:25.086" status="FAIL"></status>
+</suite>
+<status endtime="20161102 23:38:25.361" starttime="20161102 23:38:24.626" status="FAIL"></status>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="1">Critical Tests</stat>
+<stat pass="0" fail="1">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="0" fail="1" name="Acceptancetest" id="s1">Acceptancetest</stat>
+<stat pass="0" fail="1" name="RadixSortTests" id="s1-s1">Acceptancetest.RadixSortTests</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
